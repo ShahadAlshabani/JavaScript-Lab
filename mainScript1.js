@@ -36,9 +36,11 @@ console.log("========Fibonacci sequence==========");
 let num1= 0;
 let num2 = 1;
 let sum = 0;
+let text="";
 for(let i =1 ; i<= 20 ; i++){
-    console.log(num1+" ");
+    text += ","+ num1;
     sum = num1 + num2;
     num1 = num2;
     num2 = sum;
 }
+console.log(text);
