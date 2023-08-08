@@ -1,5 +1,58 @@
 //Shahad Alshabani
 
+console.log("========even & odd numbers ==========");
+
+let number1 = 1;
+if(number1  % 2 == 0){
+    console.log("even");
+
+}
+else {
+    console.log("odd");
+
+}
+console.log("========Grades ==========");
+
+let grade = 81;
+if(grade > 100){
+    console.log("undefined");
+
+}else if(grade >= 90){
+    console.log("A");
+
+}else if(grade >= 80){
+    console.log("B");
+
+}else if(grade >= 70 ){
+    console.log("C");
+
+}else if(grade >= 60){
+    console.log("D");
+
+
+}else if(grade <= 59 && grade >= 1){
+    console.log("F");
+
+}else {
+    console.log("undefined");
+}
+
+console.log("========Fizz Buzz==========");
+
+let number9 = 15;
+if(number9 % 3 == 0 && number9 % 5 == 0){
+    console.log("fizzbuzz");
+}else if(number9 % 3 == 0){
+    console.log("fizz");
+
+}else if(number9 % 5 == 0){
+    console.log("buzz");
+
+}else{
+    console.log("undefined");
+
+}
+
 console.log("========square number between 1 and 10 ==========");
 
 for(let i =1 ; i<= 10 ; i++){
